@@ -1,0 +1,35 @@
+[
+  {
+    "rank": 1,
+    "character_item": "Apocalypse (Big Boy)",
+    "category": "Legendary / Arena Meta",
+    "tier": "S+",
+    "meta_score": 99.4,
+    "resource_efficiency": "High (Strict ROI)",
+    "daily_trend": "+4.2%",
+    "primary_role": "Controller / Brawler",
+    "verification_source": "Verified Live @ 2026-10-19"
+  },
+  {
+    "rank": 2,
+    "character_item": "Super Skrull",
+    "category": "Global / Raid",
+    "tier": "S+",
+    "meta_score": 98.1,
+    "resource_efficiency": "Medium",
+    "daily_trend": "+1.5%",
+    "primary_role": "Blaster / Support",
+    "verification_source": "Verified Live @ 2026-10-19"
+  },
+  {
+    "rank": 3,
+    "character_item": "Black Knight",
+    "category": "Arena Defense",
+    "tier": "S",
+    "meta_score": 95.8,
+    "resource_efficiency": "Very High",
+    "daily_trend": "-0.8%",
+    "primary_role": "Protector",
+    "verification_source": "Verified Live @ 2026-10-19"
+  }
+]
