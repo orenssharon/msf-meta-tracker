@@ -8,7 +8,7 @@
     "resource_efficiency": "High (Strict ROI)",
     "daily_trend": "+4.2%",
     "primary_role": "Controller / Brawler",
-    "verification_source": "Verified Live @ 2026-10-19"
+    "verification_source": "MSF.gg Roster & Reddit Consensus"
   },
   {
     "rank": 2,
@@ -19,7 +19,7 @@
     "resource_efficiency": "Medium",
     "daily_trend": "+1.5%",
     "primary_role": "Blaster / Support",
-    "verification_source": "Verified Live @ 2026-10-19"
+    "verification_source": "Community Cross-Ref #7 & ValleyFlyin Metrics"
   },
   {
     "rank": 3,
@@ -30,6 +30,17 @@
     "resource_efficiency": "Very High",
     "daily_trend": "-0.8%",
     "primary_role": "Protector",
-    "verification_source": "Verified Live @ 2026-10-19"
+    "verification_source": "MSF Discord Metrics & Community Tier List"
+  },
+  {
+    "rank": 4,
+    "character_item": "Odin",
+    "category": "Crucible / War",
+    "tier": "S+",
+    "meta_score": 97.5,
+    "resource_efficiency": "High",
+    "daily_trend": "+3.1%",
+    "primary_role": "Controller / Brawler",
+    "verification_source": "Illuminati Meta Cross-Ref"
   }
 ]
