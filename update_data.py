@@ -1,8 +1,7 @@
 import json
 from datetime import datetime
 
-def fetch_and_cross_reference_meta():
-    # מאגר נתונים מקיף, מוצלב וסופר-מקצועי המרכז את מובילי המטא של המשחק
+def update_json_file():
     comprehensive_meta_data = [
         {
             "rank": 1,
@@ -137,11 +136,12 @@ def fetch_and_cross_reference_meta():
             "verification_source": "War Defense Meta Review"
         }
     ]
+
+    # כתיבה ישירה של הנתונים אל קובץ ה-JSON
+    with open("data.json", "w", encoding="utf-8") as f:
+        json.dump(comprehensive_meta_data, f, indent=2, ensure_ascii=False)
     
-    return comprehensive_meta_data
+    print(f"data.json successfully updated at {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC")
 
 if __name__ == "__main__":
-    data = fetch_and_cross_reference_meta()
-    with open("data.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"Comprehensive data successfully updated at {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC.")
+    update_json_file()
